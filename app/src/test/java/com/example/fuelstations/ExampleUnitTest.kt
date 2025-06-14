@@ -1,4 +1,4 @@
-package com.example.fuelstations
+package com.epc_it.fuelstations
 
 import org.junit.Test
 
