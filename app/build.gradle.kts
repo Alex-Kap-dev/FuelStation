@@ -1,6 +1,3 @@
-import io.grpc.internal.SharedResourceHolder.release
-import org.gradle.kotlin.dsl.release
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -8,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.epc_it.fuelstations"
+    namespace = "com.epc_it.fuelstation"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.epc_it.fuelstations"
+        applicationId = "com.epc_it.fuelstation"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

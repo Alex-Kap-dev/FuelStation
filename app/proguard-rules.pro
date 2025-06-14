@@ -35,8 +35,8 @@
 }
 
 # Keep FuelStation model
--keep class com.epc_it.fuelstations.model.FuelStation { *; }
--keep class com.epc_it.fuelstations.ui.screens.SafeFuelStation { *; }
+-keep class com.epc_it.fuelstation.model.FuelStation { *; }
+-keep class com.epc_it.fuelstation.ui.screens.SafeFuelStation { *; }
 
 # OSMDroid specific rules
 -keep class org.osmdroid.tileprovider.modules.** { *; }
